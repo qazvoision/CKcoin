@@ -1,19 +1,25 @@
 {
   "name": "CKcoin",
-  "version": {
-    "major": 1,
-    "minor": 0,
-    "patch": 0
-  },
-  "timestamp": "2023-06-01T00:00:00Z",
-  "tokens": [
-    {
-      "chainId": 56, // BSC主网ID
-      "address": "0x0187a1094cab6802ee6939FEAaBe49684975E0B6", // 你的代币合约地址
+  "logoURI": "https://raw.githubusercontent.com/qazvoision/CKcoin/refs/heads/main/ckcoin.png",
+  "keywords": [
+      "defi",
+      "DEFI",
+      "yield"
+    ],
+    "timestamp": "2020-09-01T01:40:34.305Z",
+    "tokens": [
+      {
+      "chainId": 1,
+      "address": "0x0187a1094cab6802ee6939FEAaBe49684975E0B6",
       "name": "CKcoin",
       "symbol": "CK",
       "decimals": 3,
-      "logoURI": "https://raw.githubusercontent.com/qazvoision/CKcoin/refs/heads/main/ckcoin.png" // 托管Logo的URL
+      "logoURI": "https://raw.githubusercontent.com/qazvoision/CKcoin/refs/heads/main/ckcoin.png"
+      }
+    ],
+    "version": {
+      "major": 0,
+      "minor": 0,
+      "patch": 0
     }
-  ]
 }
